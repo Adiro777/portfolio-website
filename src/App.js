@@ -3,23 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Navbar />
   );
+}
+
+function Navbar() {
+  return (
+    <div className="Navbar">
+      <a className="NavItem">Home</a>
+      <a className="NavItem">Resume</a>
+      <a className="NavItem">Contact</a>
+    </div>
+  )
+
+  
 }
 
 export default App;

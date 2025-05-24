@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #003CFF;
 }
 
 .App-logo {
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #003CFF;
+}
+.Navbar {
+  /* border-style: solid;
+  border-color: red; */
+  text-align: center;
+  margin-top: 30px;
+  background-color: #62B6FF;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 30px;
+  border-radius: 10px  ;
+
+}
+
+.Navbar a {
+  margin: 10px;
 }
